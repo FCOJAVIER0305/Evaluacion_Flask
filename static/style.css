@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* fondo claro */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 80px;
+}
+
+/* Menú */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Botón Ejercicio 1 - MORADO */
+.btn-ej1 {
+    width: 200px;
+    height: 200px;
+    background-color: #a020f0; /* morado similar */
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Botón Ejercicio 2 - VERDE */
+.btn-ej2 {
+    width: 200px;
+    height: 200px;
+    background-color: #8cc63f; /* verde similar */
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Hover */
+.btn-ej1:hover,
+.btn-ej2:hover {
+    opacity: 0.85;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Resultado de la Compra</h1>
+
+        <p>Nombre: {{ nombre }}</p>
+        <p>Total sin descuento: ${{ total }}</p>
+        <p>Descuento aplicado: {{ descuento }}%</p>
+        <p><strong>Total a pagar: ${{ total_final }}</strong></p>
+
+        <br>
+        <a href="/" class="btn">Volver al menú</a>
+    </div>
+
+</body>
+</html>

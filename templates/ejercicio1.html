@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Compra de Pinturas</h1>
+
+        <form method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <br><br>
+
+            <input type="number" name="edad" placeholder="Edad" required>
+            <br><br>
+
+            <input type="number" name="cantidad" placeholder="Cantidad de tarros" required>
+            <br><br>
+
+            <button type="submit" class="btn">Calcular</button>
+        </form>
+
+        <br>
+        <a href="/" class="btn">Volver</a>
+    </div>
+
+</body>
+</html>
